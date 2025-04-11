@@ -3,7 +3,7 @@ name: YoFan View Bot
 on:
   schedule:
     - cron: "*/10 * * * *"  # Every 10 minutes
-  workflow_dispatch:        # You can trigger manually too
+  workflow_dispatch:        # Allows manual runs
 
 jobs:
   run-bot:
